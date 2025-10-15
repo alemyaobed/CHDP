@@ -41,6 +41,7 @@ After installing, ensure your Jupyter kernel points to this venv. In VS Code, us
 
 Outputs (artifacts) will be saved under:
 - `artifacts/cancer/` and `artifacts/heart/`
+- `data/processed/{task}_schema.json` (required for the Streamlit app; exported by the notebook)
 
 ## Run the Streamlit app
 
