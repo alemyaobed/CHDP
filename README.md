@@ -8,7 +8,7 @@ This repo is set up for a notebook-first workflow with minimal folders. You can 
 
 ### Requirements file location
 
-- The dependencies are listed in `requirements.txt` at the repository root (`CHDP/requirements.txt`).
+- The dependencies are listed in `requirements.txt` at the repository root.
 
 ### Create and use a virtual environment (recommended)
 
