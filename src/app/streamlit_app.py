@@ -185,7 +185,7 @@ if metrics_file.exists():
 st.header("🧾 Input Features")
 schema = load_schema(task)
 if not schema:
-    st.warning("Schema not found. Run the notebook to generate schemas: data/processed/{task}_schema.json")
+    st.warning(f"Schema not found. Run the notebook to generate schemas: data/processed/{task}_schema.json")
     st.stop()
 
 numeric_cols = schema.get("numeric", [])
