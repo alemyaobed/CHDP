@@ -176,7 +176,8 @@ if preprocessor is None or model is None:
 # Load metrics if available
 metrics_file = ARTIFACTS_DIR / task / "metrics.json"
 if metrics_file.exists():
-    metrics = json.load(open(metrics_file))
+    with open(metrics_file, encoding='utf-8') as f:
+        metrics = json.load(f)
     st.sidebar.metric("Best Model", metrics.get("best_model", "Unknown"))
     st.sidebar.metric("Test ROC AUC", f"{metrics.get('roc_auc', 0):.3f}")
 
