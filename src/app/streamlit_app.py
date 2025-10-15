@@ -13,7 +13,6 @@ import json
 import joblib
 from pathlib import Path
 import matplotlib.pyplot as plt
-import seaborn as sns
 
 """CHDP Streamlit App: Form-based UI for Cancer & Heart predictions.
 
