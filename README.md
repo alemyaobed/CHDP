@@ -2,6 +2,8 @@
 
 Cancer & Heart Disease Prediction
 
+Note: This is an educational learning project to practice reproducible ML. It is not intended for clinical use.
+
 ## Quick Start (Notebook-first)
 
 This repo is set up for a notebook-first workflow with minimal folders. You can train, evaluate, run SHAP, and export artifacts directly from the notebook.
@@ -56,6 +58,13 @@ The app provides:
 - **Predictions**: View probability, risk level, and class prediction
 - **Explainability**: Optional SHAP-based feature importance
 - **Task Selection**: Switch between heart disease and cancer
+
+## Technical Report (Learning)
+
+
+For a concise write-up of datasets, methods, metrics, explainability, and limitations, see:
+
+- [Technical Report](docs/CHDP_Technical_Report.md)
 
 ## Roadmap / Future Improvements
 
